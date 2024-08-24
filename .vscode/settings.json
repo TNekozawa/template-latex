@@ -1,0 +1,21 @@
+{
+    "latex-workshop.latex.autoBuild.run": "never",
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "latexmk for uplatex",
+            "tools": [
+                "latexmk-uplatex-tool"
+            ],
+        },
+    ],
+    "latex-workshop.latex.tools": [
+        {
+            "name": "latexmk-uplatex-tool",
+            "command": "latexmk",
+            "args": [
+                "-outdir=%OUTDIR%",
+                "%DOC%"
+            ],
+        },
+    ],
+}
