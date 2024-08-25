@@ -1,5 +1,9 @@
 # Ubuntu環境でLaTeX環境を構築する
 
+## 0: VsCodeとWSLをインストール
+各自でやって下さい
+
+---
 ## 1: LaTeXを下記でインストール
 ```bash
 sudo apt install texlive-full
