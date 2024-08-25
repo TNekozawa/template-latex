@@ -1,0 +1,32 @@
+\documentclass[../sample.tex]{subfiles}
+
+\setcounter{section}{0}
+
+\begin{document}
+    \section{背景}
+    テスト用に背景をつらつら書いてみる. まずはsubsectionから.
+        \subsection{テスト1}
+        テスト1で定義環境, 定理環境を書く.
+            \begin{dfn}
+                Define something.
+            \end{dfn}
+            \begin{thm}
+                Some Theorem.
+            \end{thm}
+        \subsection{テスト2}
+        テスト2で数式を書く. 指示関数.
+            \begin{align*}
+                \mathbb{\chi}_A(x)=
+                \begin{cases}
+                    1\ (x\in A) \\
+                    0\ (x \notin A)
+                \end{cases}
+            \end{align*}
+        積分(Fourier変換).
+            \begin{align*}
+                F(\xi)
+                =
+                \int_{-\infty}^{\infty}
+                    f(x)e^{-i\xi x}dx
+            \end{align*}
+\end{document}
