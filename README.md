@@ -40,11 +40,6 @@ $pdf_previewer = 'wsl-open %S'
 
 設定ファイルは.vscode/settings.jsonファイルを参照
 
-サンプルコードファイルはsample.texファイルを参照
+サンプルコードファイルはtex/master/master.texファイルを参照
 
 後は右上の緑色でコンパイルできるはず
-
-ちなみに以下のコマンドラインでもコンパイルできる.
-```bash
-latexmk sample.tex
-```
